@@ -46,3 +46,32 @@ h1, h2, h3, .h1, .h2, .h3{
     color: var(--w);
 }
 
+
+/* HEADER */
+
+.header-custom{
+    height: 92vh;
+    background-image: linear-gradient(rgba(53, 137, 255, 0.4), rgba(53, 137, 255, 0.4)) ,url(header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    min-height: 8vh;
+}
+
+.nav-link{
+    color: var(--w);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: var(--w);
+}
+
+.logo{
+    width: 50px;
+}
