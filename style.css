@@ -76,6 +76,12 @@ h1, h2, h3, .h1, .h2, .h3{
     width: 50px;
 }
 
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+}
+
 /* ICON */
 
 .linea{
